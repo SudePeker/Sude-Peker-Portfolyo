@@ -34,8 +34,8 @@ nav{
     justify-content: space-between;
 }
 nav ul{
-    margin: 5px;
-    padding: 5px;
+    margin: 15px;
+    padding: 15px;
     margin: auto;
 }
 nav ul li{
@@ -67,42 +67,6 @@ nav ul li a:hover{
     margin: 0;
 }
 
-.chip {
-    display: inline-block;
-    padding: 0;
-    height: 50px;
-    width: 200px;
-    font-size: 15px;
-    border: 2px solid #2a5887;
-    border-radius: 25px;
-    background-color:  #a7cfe8;
-  }
-  
-.chip img {
-  float: left;
-  padding: 0;
-  margin: 0 10px 0 -25px;
-  height: 40px;
-  width: 40px;
-  border: 1px solid white;
-  border-radius: 50%;
-  margin: auto;
-  margin-top: 3px;
-  margin-left: 30px;
-}
-
-.chip h5{
-  margin: auto;
-  margin-top: 15px;
-  font-size: 15px;
-  text-align: center;
-  color: #2a5887 ;
-}
-
-.left{
-    float: left;
-    margin: auto;
-}
 
 .right{
     float: right;
@@ -298,7 +262,10 @@ nav ul li a:hover{
     border-radius: 15px;
     
 }
-
+.column-25 a{
+    text-decoration: none;
+    color: black;
+}
 .overlay {
   position: absolute;
   bottom: 100%;
