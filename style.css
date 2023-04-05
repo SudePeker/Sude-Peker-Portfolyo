@@ -392,6 +392,35 @@ h4{
 }
 
 /* Ekran boyutu*/
+@media screen and (max-width:1472px){
+    .dunya{
+        width: 150px;
+        height: 150px;
+    }
+}
+@media screen and (max-width:1381px){
+    .dunya{
+        width: 135px;
+        height: 135px;
+    }
+}
+@media screen and (max-width:1440px) {
+
+    .column-25{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    }
+    .overlay{
+         width: 280px;
+        height: 280px;
+    }
+    h4{
+        margin: auto;
+        width: 50%;
+    }
+}
 @media screen and (max-width:1200px){
     .computer{
         width: 100%;
@@ -401,27 +430,17 @@ h4{
         margin-left: 80px ;
         margin-top: 120px;
     }
-    .column-25{
-        width: 50%;
-        margin: auto;
-        text-align: center;
-        padding: 10px;
-    }
-
-    .overlay{
-         width: 280px;
-        height: 280px;
-    }
-    h4{
-        margin: auto;
-        width: 50%;
-    }
     .dunya{
         width: 127px;
         height: 127px;
     }
 }
-
+@media screen and (max-width:1381px){
+    .dunya{
+        width: 120px;
+        height: 120px;
+    }
+}
 @media screen and (max-width:1030px){
     .dunya{
         width: 100px;
