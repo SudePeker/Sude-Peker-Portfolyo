@@ -126,8 +126,8 @@ nav ul li a:hover{
 }
 
 .dunya{
-    width: 160px;
-    height: 160px;
+    width: 30%;
+    height: 30%;
     margin: auto;
     background-color: #a7cfe8;
     border-radius: 50%;
@@ -142,7 +142,7 @@ nav ul li a:hover{
     width: 160px;
     height: 200px;
     background: url(img/dunya.png);
-    background-size: contain;
+    background-size: 100% 100%;
     animation: donus 7s linear 0s infinite;
 }
 
@@ -388,12 +388,7 @@ p{
 }
 
 /* Ekran boyutu*/
-@media screen and (max-width:1472px){
-    .dunya{
-        width: 150px;
-        height: 150px;
-    }
-}
+
 @media screen and (max-width:1440px) {
 
     .column-25{
@@ -407,12 +402,7 @@ p{
         height: 280px;
     }
 }
-@media screen and (max-width:1381px){
-    .dunya{
-        width: 135px;
-        height: 135px;
-    }
-}
+
 @media screen and (max-width:1210px){
     .Sd{
         font-size: 40px;
@@ -427,23 +417,10 @@ p{
         margin-left: 80px ;
         margin-top: 120px;
     }
-    .dunya{
-        width: 127px;
-        height: 127px;
-    }
+    
 }
-@media screen and (max-width:1381px){
-    .dunya{
-        width: 120px;
-        height: 120px;
-    }
-}
-@media screen and (max-width:1030px){
-    .dunya{
-        width: 100px;
-        height: 100px;
-    }
-}
+
+
 @media screen and (max-width:960px){
     .Sd{
         font-size: 32px;
@@ -459,10 +436,7 @@ p{
         width: 100%;
     }
 
-    .dunya{
-        width: 160px;
-        height: 160px;
-    }
+
 
     .column-25{
         width: 100%;
