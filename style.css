@@ -113,7 +113,7 @@ nav ul li a:hover{
 }
 
 /* dünya */
-.bilgisayar {
+.arka {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -131,10 +131,12 @@ nav ul li a:hover{
     margin: auto;
     background-color: #a7cfe8;
     border-radius: 50%;
+    /* taşan içerik kırpılır ve içeriğin geri kalan kısmı görünmez olur */
     overflow: hidden;
     position: absolute;
     top: 50%;
     left: 50%;
+    /* hareket derecesini(konumunu) belirlemek için */
     transform: translate(-50%, -34%)
 }
 
@@ -143,11 +145,14 @@ nav ul li a:hover{
     height: 200px;
     background: url(img/dunya.png);
     background-size: 100% 100%;
+    /* infinite linear: animasyonun sürekli hareket etmesi */
     animation: donus 7s linear 0s infinite;
 }
 
+/* donus adındaki animasyon */
 @keyframes donus{
     from{}
+    /* arka plan başlangıç konumunu ayarlamak */
     to{background-position: -400px 0;}
 }
 
@@ -176,8 +181,8 @@ nav ul li a:hover{
 }
 
 .animate{
+    /* tekrarlama süresi */
     animation: yazi 2s infinite;
-    transition: 0.9s;
 }
 @keyframes yazi{
     0%{color: black;}
